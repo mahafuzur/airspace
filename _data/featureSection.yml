@@ -1,0 +1,12 @@
+#-------------------------------
+# Feature Section
+# Change the feature section title.
+title: "WE BELIEVE IN GREAT IDEAS"
+# Change greatIdeas value to change the we believe section content
+greatIdeas: >
+  Maecenas faucibus mollis interdum. Morbi leo risus,
+  porta ac consectetur ac, vestibulum at eros. Fusce dapibus,
+  tellus ac cursus commodo, tortor mauris condimentum nibh,
+  ut fermentum massa justo sit amet risus.
+
+buttonText: "My Projects"

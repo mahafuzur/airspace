@@ -1,0 +1,39 @@
+<!-- Portfolio Start -->
+<section id="portfolio-work">
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div class="portfolio-menu">
+            <ul>
+                <li class="filter" data-filter="all">Everything</li>
+                {% for item in site.data.projects %}
+                <li class="filter" data-filter=".{{item.name}}">{{item.name}}</li>
+                {% endfor %}
+                {% assign item = nil %}
+            </ul>
+          </div>
+
+          <div class="portfolio-contant">
+            <ul id="portfolio-contant-active">
+                {% for item in site.data.projects %}
+                <li class="mix {{item.name}}">
+                  <a href="#">
+                    <img src="{{site.baseurl}}{{item.image}}" alt="{{item.title}} project image">
+                    <div class="overly">
+                      <div class="position-center">
+                        <h2>{{item.title}}</h2>
+                        <p>{{item.description}}</p>
+                      </div>
+                    </div>
+                  </a>
+              </li>
+              {% endfor %}
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>

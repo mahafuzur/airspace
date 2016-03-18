@@ -1,0 +1,48 @@
+<!-- Content Start -->
+<section id="testimonial">
+  <div class="container">
+
+    <div class="row">
+      <div class="section-title text-center">
+        <h2></h2>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="block">
+          <ul class="counter-box clearfix">
+            {% for item in site.data.testimonial.progress limit: 4 %}
+            <li>
+              <div class="block">
+                <i class="{{item.iconClass}}"></i>
+                <h4 class="counter">{{item.counter}}</h4>
+                <span>{{item.description}}</span>
+              </div>
+            </li>
+            {% endfor %}
+            {% assign item = nil %}
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+            {% for item in site.data.testimonial.people %}
+            <div>
+                <img src="{{site.baseurl}}/img/cotation.png" alt="IMG">
+                <p>{{item.quote}}</p>
+                <div class="user">
+                  <img src="{{site.baseurl}}{{item.avater}}" alt="{{item.name}}">
+                  <p>{{item.name}}<span></span> {{item.position}}</p>
+                </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

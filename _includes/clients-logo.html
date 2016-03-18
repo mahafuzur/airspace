@@ -1,0 +1,18 @@
+<!-- Clients Logo Section Start -->
+<section id="clients-logo-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div id="clients-logo" class="owl-carousel">
+            {% for item in site.data.clients %}
+            <div class="clients-logo-img">
+              <img src="{{site.baseurl}}{{item.logo}}" alt="{{item.name}}">
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

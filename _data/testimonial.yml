@@ -1,0 +1,42 @@
+title: 'Fun Facts About Us'
+description: >
+  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+  there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+progress:
+- counter: '20000'
+  description: Cups Of Coffee
+  iconClass: 'ion-ios-chatboxes-outline'
+
+- counter: '20000'
+  description: Cups Of Coffee
+  iconClass: 'ion-ios-glasses-outline'
+
+- counter: '20000'
+  description: Cups Of Coffee
+  iconClass: 'ion-ios-compose-outline'
+
+- counter: '20000'
+  description: Cups Of Coffee
+  iconClass: 'ion-ios-timer-outline'
+
+
+people:
+- name: 'Rose Ray'
+  position: 'CEO-Themefisher'
+  avater: '/img/item-img1.jpg'
+  quote: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
+
+- name: 'Monir'
+  position: 'Tranee Chemist'
+  avater: '/img/item-img1.jpg'
+  quote: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
+
+- name: 'Bethee'
+  position: 'Student'
+  avater: '/img/item-img1.jpg'
+  quote: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
+
+- name: 'Popy'
+  position: 'Student'
+  avater: '/img/item-img1.jpg'
+  quote: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."

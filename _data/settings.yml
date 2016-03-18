@@ -1,0 +1,40 @@
+#-------------------------------
+# General Site Settings
+
+# The title of your site
+title: "Airspace"
+# Short Description about your site
+description: "This is my second jekyll site."
+# Pute your logo (150px x 40px) in image folder
+logo: "logo.png"
+
+# Main Menu
+menu:
+- {name: Home, url: '/'}
+- {name: Work, url: '/work/'}
+- {name: Blog, url: '/blog/'}
+- {name: Contact, url: '/contact/'}
+# Footer Menu
+footerMenu:
+- {name: About Us, url: '/index.html#intro'}
+- {name: Contact us, url: '/contact/'}
+- {name: How it works, url: '/index.html#service'}
+- {name: Support, url: '/support/'}
+- {name: Terms, url: '/terms/'}
+
+#-------------------------------
+# About Section
+# Change aboutUs1 & aboutUs2 value to change the about us content
+aboutUs1: >
+  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+aboutUs2: >
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+  qui officia deserunt mollit anim id
+
+# Place your image in image (720px x 600px) folder and write your image name with extension in below
+wrapperImage: "wrapper.png"
