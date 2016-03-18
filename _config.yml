@@ -1,6 +1,6 @@
 
 
-baseurl: "http://localhost:4000/"
+baseurl: "http://localhost:4000"
 # Build settings
 markdown: kramdown
 highlighter: rouge
