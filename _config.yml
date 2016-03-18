@@ -1,10 +1,7 @@
 
 
-<<<<<<< HEAD
-baseurl: "http://localhost:4000"
-=======
-baseurl: "http://mahafuzur.github.io/airspace/"
->>>>>>> origin/gh-pages
+
+baseurl: "http://mahafuzur.github.io/airspace"
 # Build settings
 markdown: kramdown
 highlighter: rouge
