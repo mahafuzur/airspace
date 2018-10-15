@@ -1,7 +1,8 @@
 
 
 
-baseurl: "http://mahafuzur.github.io/airspace"
+# baseurl: "http://mahafuzur.github.io/airspace"
+baseurl: ""
 # Build settings
 markdown: kramdown
 highlighter: rouge
